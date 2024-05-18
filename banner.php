@@ -25,7 +25,7 @@
         <div class="carousel-inner">
             <div class="item active">
             <div class="fill">  
-                    <img src="<?php echo web_root ;?>img/K12Ready.jpg"   /> 
+                    <!-- <img src="<?php echo web_root ;?>img/K12Ready.jpg"   />  -->
               </div>
                 <div class="carousel-caption">
                     <!-- <h2>K12 Now Ready</h2> -->
@@ -33,7 +33,7 @@
             </div>
             <div class="item">
             <div class="fill">  
-                    <img src="<?php echo web_root ;?>img/K12Ready.jpg"   /> 
+                    <!-- <img src="<?php echo web_root ;?>img/K12Ready.jpg"   />  -->
               </div>
                 <div class="carousel-caption">
                     <!-- <h2>K12 Now Ready</h2> -->

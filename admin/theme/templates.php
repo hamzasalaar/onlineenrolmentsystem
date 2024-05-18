@@ -78,8 +78,8 @@ if (isset($_SESSION['admingvCart'])){
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand"  href="<?php echo web_root; ?>admin/index.php" > 
-                <img src="<?php echo web_root; ?>img/school_seal_100x100.jpg" height="23">
-                Green Valley College Foundation, Inc.</a>
+                <img src="<?php echo web_root; ?>img/FIUlogo.jpg" height="23">
+                Final International University</a>
             </div>
             <!-- /.navbar-header -->
 
@@ -243,10 +243,10 @@ $singleuser = $user->single_user($_SESSION['ACCOUNT_ID']);
                           
                         </li>
                       
-                        <li>
+                        <!-- <li>
                             <a href="<?php echo web_root; ?>admin/back-up/index.php" ><i class="fa fa-user fa-fw"></i> Back-up and Restore </a>
                           
-                        </li>
+                        </li> -->
                  <?php }  ?>
  
  

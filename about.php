@@ -14,13 +14,13 @@
                             <p>
                                <h1> VISION</h1>
 
-                                    Universityhood 2025: A Culture of Global Leadership, Quality and Excellence.
+                                    FIU: A Culture of Global Leadership, Quality and Excellence.
 
                                      
 
                                    <h1>  MISSION</h1>
 
-                                    Green Valley College Foundation Inc. is committed to develop academic and technopreneurial competencies, facilitate learning experiences and assure the highest standards of quality and excellence and institutional integrity.
+                                    Final International University is committed to develop academic and technopreneurial competencies, facilitate learning experiences and assure the highest standards of quality and excellence and institutional integrity.
 
                                      
 

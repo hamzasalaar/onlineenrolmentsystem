@@ -266,7 +266,7 @@ if($userStud){
 			<tr>
 			<td></td>
 				<td colspan="5">	
-					<button  class="btn btn-success btn-lg" name="transsubmit" type="submit">Submit</button>
+					<button  class="btn btn-success btn-lg" style="background-color: #D4212E;" name="transsubmit" type="submit">Submit</button>
 				</td>
 			</tr>
 		</table>
