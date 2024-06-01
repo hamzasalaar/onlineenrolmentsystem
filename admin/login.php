@@ -66,7 +66,7 @@ http://www.bootstrapzen.com/item/135/simple-login-form-logo/
   }
 
 body {
-  background: url(../img/bg.jpg) repeat center center fixed ;
+  background: url(../img/FIU2.jpg) repeat center center fixed ;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -79,11 +79,11 @@ body {
 
 form[role=login] {
   color: #5d5d5d;
-  background: #accbb2;
   padding: 26px;
   border-radius: 10px;
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
+  backdrop-filter:blur(20px) brightness(200%);
 }
   form[role=login] img {
     display: block;
@@ -123,8 +123,7 @@ form[role=login] {
 
       <section class="login-form"> <? echo check_message(); ?>;
         <form method="post" action="" role="login">
-          <!-- <img src="http://i.imgur.com/RcmcLv4.png" class="img-responsive" alt="" /> -->
-           <img src="../img/school_seal_100X100.png" height="25px" class="img-responsive" alt="" />
+           <img src="../img/FIUlogo.jpg" height="25px" class="img-responsive" alt="" />
          
           <input type="input" name="user_email" placeholder="Username" required class="form-control input-lg" value="" />
           
@@ -177,7 +176,7 @@ if(isset($_POST['btnLogin'])){
     //make use of the static function, and we passed to parameters
     $res = $user::userAuthentication($email, $h_upass);
     if ($res==true) { 
-       message("You logon as ".$_SESSION['ACCOUNT_TYPE'].".","success");
+       message("You are logged in as ".$_SESSION['ACCOUNT_TYPE'].".","success");
        
        $sql="INSERT INTO `tbllogs` (`USERID`, `LOGDATETIME`, `LOGROLE`, `LOGMODE`) 
           VALUES (".$_SESSION['ACCOUNT_ID'].",'".date('Y-m-d H:i:s')."','".$_SESSION['ACCOUNT_TYPE']."','Logged in')";

@@ -206,16 +206,16 @@ $singleuser = $user->single_user($_SESSION['ACCOUNT_ID']);
                            </li>
 
                            <li>
-                            <!-- <a href="<?php echo web_root; ?>admin/report/index.php" ><i class="fa  fa-file-text fa-fw"></i> Report </a> -->
-                            <a href="#"><i class="fa  fa-file-text fa-fw"></i> Report <span class="fa arrow"></span></a>
-                            <ul class="nav nav-second-level">
+                                <!-- <a href="<?php echo web_root; ?>admin/report/index.php" ><i class="fa  fa-file-text fa-fw"></i> Report </a> -->
+                                <!-- <a href="#"><i class="fa  fa-file-text fa-fw"></i> Report <span class="fa arrow"></span></a> -->
+                                <!-- <ul class="nav nav-second-level"> -->
                                 <li>
-                                    <a href="<?php echo web_root; ?>admin/report/index.php?view=studentlist">Students</a>
+                                    <!-- <a href="<?php echo web_root; ?>admin/report/index.php?view=studentlist">Students</a> -->
                                     <!-- <ul  class="nav nav-third-level">
                                         <li>List of Student</li>
                                     </ul> -->
                                 </li>
-                                <li>
+                                <!-- <li>
                                     <a href="#">Class List  <span class="fa arrow"></span></a>
                                      <ul  class="nav nav-third-level">
                                         <li><a href="<?php echo web_root; ?>admin/report/index.php?view=classrecord">Student List per Instructor </a></li>
@@ -224,17 +224,17 @@ $singleuser = $user->single_user($_SESSION['ACCOUNT_ID']);
                                         <li><a href="<?php echo web_root; ?>admin/report/index.php?view=perSection" >Students enrolled per Section</a></li>
                                         <li><a href="<?php echo web_root; ?>admin/report/index.php?view=perSemester" >Students enrolled per Semester</a></li>
                                     </ul>
-                                </li>
-                           <!--   <li>
+                                </li> -->
+                                <!--   <li>
                                     <a href="<?php echo web_root; ?>admin/report/index.php?view=classrecord">Class List</a>
                                 </li>  -->
                                 <li>
-                                    <a href="<?php echo web_root; ?>admin/report/index.php?view=log">System Log</a>
+                                    <!-- <a href="<?php echo web_root; ?>admin/report/index.php?view=log">System Log</a> -->
                                 </li>
                                 
                             </ul>
                             <!-- /.nav-third-level -->
-                        </li>
+                            </li>
                         <?php if ($_SESSION['ACCOUNT_TYPE']=='Administrator') {
                             # code...
                         ?>
