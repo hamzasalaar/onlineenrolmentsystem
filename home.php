@@ -1,19 +1,19 @@
  <!-- Map Column -->
  <div class="row">
             <div class="col-md-4">
-                <img width="100%" src="img/school_seal_100x100.png">
+                <img width="100%" src="img/FIUlogo.jpg">
             </div>
             <!-- Contact Details Column -->
             <div class="col-md-8">
                 <h3>Contact Details</h3>
                 <p>
-                    Green Valley College 
-                <br>General Paulino Santos Drive, Koronadal City, 9506 South Cotabato, Philippines<br>
+                    Final International University 
+                <br>Kyrenia, KKTC<br>
                 </p>
                 <p><i class="fa fa-phone"></i> 
                     <abbr title="Phone">P</abbr>: (083) 228-9722</p>
                 <p><i class="fa fa-envelope-o"></i> 
-                    <abbr title="Email">Email</abbr>: <a href="mailto:name@example.com">Admission@greenvalleyph.com</a>
+                    <abbr title="Email">Email</abbr>: <a href="mailto:name@example.com">Admission@final.edu.tr</a>
                 </p>
                 <p><i class="fa fa-clock-o"></i> 
                     <abbr title="Hours">H</abbr>: Monday - Friday: 9:00 AM to 5:00 PM</p>
@@ -53,9 +53,9 @@
 
                                      
 
-                                   <h1>  MISSION</h1>
+                                   <!-- <h1>  MISSION</h1>
 
-                                    Green Valley College Foundation Inc. is committed to develop academic and technopreneurial competencies, facilitate learning experiences and assure the highest standards of quality and excellence and institutional integrity.
+                                    Green Valley College Foundation Inc. is committed to develop academic and technopreneurial competencies, facilitate learning experiences and assure the highest standards of quality and excellence and institutional integrity. -->
 
                                      
 

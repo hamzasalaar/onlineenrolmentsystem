@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="">
 <meta name="author" content="">
-<title><?php echo $title; ?> | Green Valley College Foundation, Inc.</title>
+<title><?php echo $title; ?> | Final International SIS</title>
 
      <!-- Bootstrap Core CSS -->
  <link href="<?php echo web_root; ?>css/bootstrap.min.css" rel="stylesheet">
@@ -58,8 +58,8 @@
     color:black;
     text-decoration:none;
     font-size: 42px;
-    font-family: "broadway";
-    /*font-style: bold;*/
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif";
+    font-style: bold;
     padding: 0;
     margin: 0;
     top: 0;
@@ -110,22 +110,22 @@ $currentyear = date('Y');
 
 <body style="Pbackground-color:#e0e4e5" >
 
-<div class="navbar-fixed-top navbar-TOPsm  col-md-10    col-md-offset-1"    role="navigation">
+<div class="navbar-fixed-top navbar-TOPsm  col-md-10    col-md-offset-1"    role="navigation" style="background-color:#D4212E">
   <div class="container">
     <div class="navbar-header">
-          <h5 class="navbar-menu p" >Green Valley College Foundation, Inc.</h5>
+          <h5 class="navbar-menu p" >Final International Unviersity</h5>
          <button type="button" class="navbar-toggle btn-xs p" data-toggle="collapse" data-target=".smMenu">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button> 
     </div>
-      <div  class="collapse navbar-collapse  smMenu "> 
+      <div  class="collapse navbar-collapse  smMenu " > 
 
-        <ul class="navbar-nav p navbar-left tooltip-demo" style="margin-left:-8%;"> 
+        <!-- <ul class="navbar-nav p navbar-left tooltip-demo" style="margin-left:-8%;"> 
             <li class="dropdown dropdown-toggle ">
               <a  data-toggle="tooltip" data-placement="left" title="Contact Us"   href="<?php echo web_root.'index.php?q=contact';  ?>"> 
-               <i class="fa fa-phone fa-fw"> </i>  Call Us: (083) 228-9722 OR Email Us: Admission@greenvalleyph.com
+               <i class="fa fa-phone fa-fw"> </i>  Call Us: (083) 228-9722 OR Email Us: admission@final.edu.tr
               </a>
             </li>
             <li><span>    ||    </span></li>
@@ -136,7 +136,7 @@ $currentyear = date('Y');
            <li>
             <a  data-toggle="tooltip" data-placement="bottom" title="Semester" > <?php echo $_SESSION['SEMESTER'] . ' Semester';?></a>
            </li>
-          </ul>
+          </ul> -->
           <ul class="navbar-nav p navbar-right ">
 
             <?php if (isset($_SESSION['IDNO']) ){  
@@ -187,7 +187,7 @@ $currentyear = date('Y');
     <div class="row "> 
      <p > 
         <a  class="title-logo"  href="<?php echo web_root; ?>index.php" title="">
-        <h1 align="center" >Green Valley College Foundation, Inc.</h1>
+        <h1 align="center" style="font-family:verdana;" >Final International Unviersity</h1>
         </a>
     </p>
        
@@ -201,7 +201,7 @@ $currentyear = date('Y');
 
    </div>
 
- <div class="navbar navbar-static-top navbar-magbanua col-md-10    col-md-offset-1 "    role="navigation">
+ <div class="navbar navbar-static-top navbar-magbanua col-md-10    col-md-offset-1 " style="background-color:#D4212E"   role="navigation">
     
       <div class="container ">
         <div class="navbar-header"> 
@@ -217,7 +217,7 @@ $currentyear = date('Y');
 <?php
   
   ?>
-        <div class="collapse navbar-collapse bigMenu"  > 
+        <div class="collapse navbar-collapse bigMenu"   > 
           <ul class="nav navbar-nav menu" style="margin-left:-4%;"    > 
 
           <!-- <ul class="nav navbar-nav" >  -->
@@ -275,7 +275,7 @@ $currentyear = date('Y');
             <div class="row">
               <div class="col-lg-8">
                 <div class="panel panel-default">
-                  <div class="panel-heading" style="background-color:#098744;color:#fff;">
+                  <div class="panel-heading" style="background-color:#D4212E;color:#fff;">
                   <b><?php   
                   echo  $title . (isset($_GET['category']) ?  '  |  ' .$_GET['category'] : '' )?> </b> 
                   </div>
@@ -302,8 +302,8 @@ $currentyear = date('Y');
 
 ?>
        </div>
-            <footer class="panel-footer" style="background-color:#098744;color:#fff;" >
-              <p align="left" >&copy; Green Valley College Foundation, Inc.</p>
+            <footer class="panel-footer" style="background-color:#D4212E;color:#fff;" >
+              <p align="left" >&copy; Final International Unviersity</p>
            </footer>
       </div>
 

@@ -78,8 +78,8 @@ if (isset($_SESSION['admingvCart'])){
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand"  href="<?php echo web_root; ?>admin/index.php" > 
-                <img src="<?php echo web_root; ?>img/school_seal_100x100.jpg" height="23">
-                Green Valley College Foundation, Inc.</a>
+                <img src="<?php echo web_root; ?>img/FIUlogo.jpg" height="23">
+                Final International University</a>
             </div>
             <!-- /.navbar-header -->
 
@@ -206,16 +206,16 @@ $singleuser = $user->single_user($_SESSION['ACCOUNT_ID']);
                            </li>
 
                            <li>
-                            <!-- <a href="<?php echo web_root; ?>admin/report/index.php" ><i class="fa  fa-file-text fa-fw"></i> Report </a> -->
-                            <a href="#"><i class="fa  fa-file-text fa-fw"></i> Report <span class="fa arrow"></span></a>
-                            <ul class="nav nav-second-level">
+                                <!-- <a href="<?php echo web_root; ?>admin/report/index.php" ><i class="fa  fa-file-text fa-fw"></i> Report </a> -->
+                                <!-- <a href="#"><i class="fa  fa-file-text fa-fw"></i> Report <span class="fa arrow"></span></a> -->
+                                <!-- <ul class="nav nav-second-level"> -->
                                 <li>
-                                    <a href="<?php echo web_root; ?>admin/report/index.php?view=studentlist">Students</a>
+                                    <!-- <a href="<?php echo web_root; ?>admin/report/index.php?view=studentlist">Students</a> -->
                                     <!-- <ul  class="nav nav-third-level">
                                         <li>List of Student</li>
                                     </ul> -->
                                 </li>
-                                <li>
+                                <!-- <li>
                                     <a href="#">Class List  <span class="fa arrow"></span></a>
                                      <ul  class="nav nav-third-level">
                                         <li><a href="<?php echo web_root; ?>admin/report/index.php?view=classrecord">Student List per Instructor </a></li>
@@ -224,17 +224,17 @@ $singleuser = $user->single_user($_SESSION['ACCOUNT_ID']);
                                         <li><a href="<?php echo web_root; ?>admin/report/index.php?view=perSection" >Students enrolled per Section</a></li>
                                         <li><a href="<?php echo web_root; ?>admin/report/index.php?view=perSemester" >Students enrolled per Semester</a></li>
                                     </ul>
-                                </li>
-                           <!--   <li>
+                                </li> -->
+                                <!--   <li>
                                     <a href="<?php echo web_root; ?>admin/report/index.php?view=classrecord">Class List</a>
                                 </li>  -->
                                 <li>
-                                    <a href="<?php echo web_root; ?>admin/report/index.php?view=log">System Log</a>
+                                    <!-- <a href="<?php echo web_root; ?>admin/report/index.php?view=log">System Log</a> -->
                                 </li>
                                 
                             </ul>
                             <!-- /.nav-third-level -->
-                        </li>
+                            </li>
                         <?php if ($_SESSION['ACCOUNT_TYPE']=='Administrator') {
                             # code...
                         ?>
@@ -243,10 +243,10 @@ $singleuser = $user->single_user($_SESSION['ACCOUNT_ID']);
                           
                         </li>
                       
-                        <li>
+                        <!-- <li>
                             <a href="<?php echo web_root; ?>admin/back-up/index.php" ><i class="fa fa-user fa-fw"></i> Back-up and Restore </a>
                           
-                        </li>
+                        </li> -->
                  <?php }  ?>
  
  

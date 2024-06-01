@@ -164,7 +164,7 @@ body {
 }
 
 .btn-success.btn-outline {
-    color: #5cb85c;
+    color: #D4212E;
 }
 
 .btn-info.btn-outline {
@@ -311,17 +311,17 @@ table.dataTable thead .sorting:after {
 }
 
 .panel-green {
-    border-color: #5cb85c;
+    border-color: #D4212E;
 }
 
 .panel-green .panel-heading {
-    border-color: #5cb85c;
+    border-color: #D4212E;
     color: #fff;
-    background-color: #5cb85c;
+    background-color: #D4212E;
 }
 
 .panel-green a {
-    color: #5cb85c;
+    color: #D4212E;
 }
 
 .panel-green a:hover {

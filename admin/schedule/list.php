@@ -10,9 +10,7 @@
        	 <div class="col-lg-6">
             <h1 class="page-header">List of Schedule  <a href="index.php?view=add" class="btn btn-primary btn-xs  ">  <i class="fa fa-plus-circle fw-fa"></i> Set New Schedule</a>  </h1>
        		</div>
-       		<div class="col-lg-6" >
-       			<img style="float:right;" src="<?php echo web_root; ?>img/school_seal_100x100.jpg" >
-       		</div>
+       		
        		</div>
         	<!-- /.col-lg-12 -->
    		 </div>
