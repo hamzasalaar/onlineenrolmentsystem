@@ -47,7 +47,7 @@
                   <div class="form-group">
                     <div class="col-md-8">
                       <label class="col-md-4 control-label" for=
-                      "crs_yr">Course:</label>
+                      "crs_yr">Department:</label>
 
                       <div class="col-md-8">
                        <select class="form-control input-sm" name="COURSE_ID" id="COURSE_ID"> 

@@ -8,7 +8,7 @@
 <div class="row">
       <div class="col-lg-12">
        	 <div class="col-lg-8">
-            <h2 class="page-header">List of Subjects per Course/Year <a href="index.php?view=add" class="btn btn-primary btn-xs  ">  <i class="fa fa-plus-circle fw-fa"></i> New</a>  </h2>
+            <h2 class="page-header">List of Subjects per Department/Year <a href="index.php?view=add" class="btn btn-primary btn-xs  ">  <i class="fa fa-plus-circle fw-fa"></i> New</a>  </h2>
        		</div>
        		</div>
         	<!-- /.col-lg-12 -->
@@ -26,7 +26,7 @@
 				  		<th>Description</th> 
 				  		<th>Unit</th>
 				  		<th>Pre-Requisite</th>
-				  		<th>Course/Year</th>
+				  		<th>Department/Year</th>
 				  		<!-- <th>Academic Year</th> -->
 				  		<th>Semester</th>
 				  		<th width="10%" >Action</th>

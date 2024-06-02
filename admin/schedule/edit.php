@@ -144,7 +144,7 @@
                   <div class="form-group">
                     <div class="col-md-8">
                       <label class="col-md-4 control-label" for=
-                      "COURSE_ID">Course:</label>
+                      "COURSE_ID">Department:</label>
 
                       <div class="col-md-8">
                        <select class="form-control input-sm" name="COURSE_ID" id="COURSE_ID"> 

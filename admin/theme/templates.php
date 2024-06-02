@@ -91,9 +91,9 @@ if (isset($_SESSION['admingvCart'])){
                     <ul class="dropdown-menu dropdown-user">
                         <li><a href="<?php echo web_root; ?>admin/subject/index.php?view=add"><i class="fa fa-book fa-fw"></i> Subject</a>
                         </li>
-                        <li><a href="<?php echo web_root; ?>admin/department/index.php?view=add"><i class="fa  fa-building  fa-fw"></i> Department</a>
+                        <li><a href="<?php echo web_root; ?>admin/department/index.php?view=add"><i class="fa  fa-building  fa-fw"></i> Faculty</a>
                         </li>
-                        <li><a href="<?php echo web_root; ?>admin/course/index.php?view=add"><i class="fa  fa-graduation-cap fa-fw"></i> Course</a>
+                        <li><a href="<?php echo web_root; ?>admin/course/index.php?view=add"><i class="fa  fa-graduation-cap fa-fw"></i> Department</a>
                         <!-- <li><a href="<?php echo web_root; ?>admin/instructor/index.php?view=add"><i class="fa  fa-user fa-fw"></i>Set Subject to Instructor</a> -->
                         </li>
                             <?php if ($_SESSION['ACCOUNT_TYPE']=='Administrator') {
@@ -176,11 +176,11 @@ $singleuser = $user->single_user($_SESSION['ACCOUNT_ID']);
            
                         </li>
                         <li>
-                             <a href="<?php echo web_root; ?>admin/department/index.php" ><i class="fa  fa-building fa-fw"></i>  Department</a>
+                             <a href="<?php echo web_root; ?>admin/department/index.php" ><i class="fa  fa-building fa-fw"></i>  Faculty</a>
                   </li>
                            
                          <li>
-                             <a href="<?php echo web_root; ?>admin/course/index.php" ><i class="fa  fa-graduation-cap fa-fw"></i>  Courses </a>
+                             <a href="<?php echo web_root; ?>admin/course/index.php" ><i class="fa  fa-graduation-cap fa-fw"></i>  Departments </a>
             
                         </li>
                         <li>

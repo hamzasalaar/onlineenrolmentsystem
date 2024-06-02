@@ -11,7 +11,7 @@
 
            <div class="row">
          <div class="col-lg-12">
-            <h1 class="page-header">Add New Course/Year</h1>
+            <h1 class="page-header">Add New Department/Year</h1>
           </div>
           <!-- /.col-lg-12 -->
        </div> 
@@ -19,7 +19,7 @@
                    <div class="form-group">
                     <div class="col-md-8">
                       <label class="col-md-4 control-label" for=
-                      "COURSE_NAME">Course:</label>
+                      "COURSE_NAME">Department:</label>
 
                       <div class="col-md-8">
                         <input name="deptid" type="hidden" value="">
@@ -70,7 +70,7 @@
                   <div class="form-group">
                     <div class="col-md-8">
                       <label class="col-md-4 control-label" for=
-                      "DEPT_ID">Department:</label>
+                      "DEPT_ID">Faculty:</label>
 
                       <div class="col-md-8">
                        <select class="form-control input-sm" name="DEPT_ID" id="DEPT_ID">

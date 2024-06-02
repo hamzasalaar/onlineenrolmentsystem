@@ -5,7 +5,7 @@
       <div class="row">
         <div class="col-xs-12">
           <h2 class="page-header">
-            <i class="fa fa-globe"></i>Green Valley College Foundation INC.
+            <i class="fa fa-globe"></i>Final International University
             <small class="pull-right">Date: <?php echo date('m/d/Y'); ?></small>
           </h2>
         </div>
@@ -79,7 +79,7 @@
       <td><?php echo $result->MNAME . '.'; ?></td>
       <td><?php echo $result->LNAME; ?></td>
     </tr>
-      <td>Department :</td><td><?php echo $result->DEPARTMENT_NAME . ' [ ' .$result->DEPARTMENT_DESC. ' ]'; ?></td>
+      <td>Faculty :</td><td><?php echo $result->DEPARTMENT_NAME . ' [ ' .$result->DEPARTMENT_DESC. ' ]'; ?></td>
     </tr>
       <td>Programme Tittle:</td><td><?php echo $result->COURSE_NAME . '  ' .$result->COURSE_MAJOR. ' [ '. $result->COURSE_DESC . ' ] '; ?></td>
     </tr>

@@ -15,7 +15,7 @@
  <form class="form-horizontal span6" action="controller.php?action=edit" method="POST">
   <div class="row">
          <div class="col-lg-12">
-            <h1 class="page-header">Update Department</h1>
+            <h1 class="page-header">Update Faculty</h1>
           </div>
           <!-- /.col-lg-12 -->
        </div> 
@@ -29,7 +29,7 @@
                   <div class="form-group">
                     <div class="col-md-8">
                       <label class="col-md-4 control-label" for=
-                      "DEPARTMENT_NAME">Department:</label>
+                      "DEPARTMENT_NAME">Faculty:</label>
 
                       <div class="col-md-8">
                         <input name="deptid" type="hidden" value="">

@@ -8,7 +8,7 @@ require_once ("../include/initialize.php");
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="">
 <meta name="author" content="">
-<title>Green Valley College Foundation, Inc.</title>
+<title>Final International University</title>
 
      <!-- Bootstrap Core CSS -->
  <link href="<?php echo web_root; ?>css/bootstrap.min.css" rel="stylesheet">

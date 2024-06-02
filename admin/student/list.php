@@ -9,11 +9,7 @@
       <div class="col-lg-12">
        	 <div class="col-lg-6">
             <h1 class="page-header">List of Students </h1>
-       		</div>
-       		<div class="col-lg-6" >
-       			<img style="float:right;" src="<?php echo web_root; ?>img/school_seal_100x100.jpg" >
-       		</div>
-       		</div>
+       		
         	<!-- /.col-lg-12 -->
    		 </div>
 	 		    <form action="controller.php?action=delete" Method="POST">  
@@ -30,7 +26,7 @@
 				  		<th>Age</th>
 				  		<th>Address</th>
 				  		<th>Contact No.</th>
-				  		<th>Course</th>
+				  		<th>Department</th>
 				  		<!-- <th>Status</th> -->
 				  		<th width="14%" >Action</th>
 				 

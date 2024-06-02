@@ -206,7 +206,7 @@ if($userStud){
 				  		<th>Description</th> 
 				  		<th>Unit</th>
 				  		<th>Pre-Requisite</th>
-				  		<th>Course/Year</th>
+				  		<th>Department/Year</th>
 				  		<!-- <th>Academic Year</th> -->
 				  		<th>Semester</th>
 				  		<th width="10%" >Action</th>

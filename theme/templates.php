@@ -225,7 +225,7 @@ $currentyear = date('Y');
               <a href="<?php echo web_root.'index.php'; ?>">Home</a>
             </li>
             <li class="dropdown-toggle <?php echo (isset($_GET['q']) && $_GET['q']=='department') ? "active" : false;?>" >
-              <a href="<?php echo web_root.'index.php?q=department'; ?>">Department</a>
+              <a href="<?php echo web_root.'index.php?q=department'; ?>">Faculty</a>
             </li>
             
             <li class="dropdown-toggle <?php echo (isset($_GET['q']) && ($_GET['q']=='enrol' || $_GET['q']=='subject')) ? "active" : false;?>" >

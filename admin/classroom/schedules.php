@@ -93,7 +93,7 @@
 				  		<th>Subject</th>
 				  		<th>Semester</th>
 				  		<th>School Year</th>
-				  		<th>Course and Year</th>
+				  		<th>Department and Year</th>
 				  		<th>Room</th> 
 				 
 				  	</tr>	

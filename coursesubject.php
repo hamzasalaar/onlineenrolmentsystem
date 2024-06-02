@@ -187,7 +187,7 @@ $totunit =0;
         </div>
     
         <div class="col-sm-4 invoice-col">
-          <b>Course/Year:  <?php 
+          <b>Department/Year:  <?php 
             $course = New Course();
             $singlecourse = $course->single_course($_SESSION['COURSEID']);
             $_SESSION['Course_name'] = $singlecourse->COURSE_NAME;

@@ -34,7 +34,7 @@
           
          
                <li class="list-group-item text-right"><span class="pull-left"><strong>Real name</strong></span> <?php echo $res->FNAME .' '.$res->LNAME; ?> </li>
-              <li class="list-group-item text-right"><span class="pull-left"><strong>Course</strong></span> <?php echo $resCourse->COURSE_NAME .'-'.$res->YEARLEVEL; ?> </li>
+              <li class="list-group-item text-right"><span class="pull-left"><strong>Department</strong></span> <?php echo $resCourse->COURSE_NAME .'-'.$res->YEARLEVEL; ?> </li>
               <li class="list-group-item text-right"><span class="pull-left"><strong>Status</strong></span> <?php echo $res->student_status; ?> </li>
                 
             

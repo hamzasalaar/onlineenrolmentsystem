@@ -13,7 +13,7 @@ switch ($view) {
  
 
 	case 'department' :
-        $title="Department";	
+        $title="Faculty";	
 		$content='menu.php';		
 		break;
  	case 'enrol' :

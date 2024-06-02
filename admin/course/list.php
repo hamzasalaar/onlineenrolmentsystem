@@ -7,10 +7,7 @@
  <div class="row">
       <div class="col-lg-12">
        	 <div class="col-lg-6">
-            <h1 class="page-header">List of Courses/Year  <a href="index.php?view=add" class="btn btn-primary btn-xs  ">  <i class="fa fa-plus-circle fw-fa"></i> New</a>  </h1>
-       		</div>
-       		<div class="col-lg-6" >
-       			<img style="float:right;" src="<?php echo web_root; ?>img/school_seal_100x100.jpg" >
+            <h1 class="page-header">List of Departments  <a href="index.php?view=add" class="btn btn-primary btn-xs  ">  <i class="fa fa-plus-circle fw-fa"></i> New</a>  </h1>
        		</div>
        		</div>
         	<!-- /.col-lg-12 -->
@@ -21,8 +18,8 @@
 				
 				  <thead>
 				  	<tr>
-				  		<th>Course Id</th>
-				  		<th>Course</th>
+				  		<th>Department Id</th>
+				  		<th>Department</th>
 				  		<th>Level</th>
 				  		<th>Major</th> 
 

@@ -18,7 +18,7 @@
                           <th >Subject</th> 
                           <th >Unit</th> 
                           <th >Pre-Requisite</th>
-                          <th >Course</th>
+                          <th >Department</th>
                           <th >Action</th> 
                       </thead>   
                     <tbody>

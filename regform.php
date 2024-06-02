@@ -166,9 +166,9 @@ if($userStud){
 				<td colspan="2">
 					<input required="true"  class="form-control input-md" id="LNAME" name="LNAME" placeholder="Last Name" type="text" value="<?php echo isset($_SESSION['LNAME']) ? $_SESSION['LNAME'] : ''; ?>">
 				</td> 
-				<td>
+				<!-- <td>
 					<input class="form-control input-md" id="MI" name="MI" placeholder="MI"  maxlength="1" type="text" value="<?php echo isset($_SESSION['MI']) ? $_SESSION['MI'] : ''; ?>">
-				</td>
+				</td> -->
 			</tr>
 			<tr>
 				<td><label>Address</label></td>
@@ -200,7 +200,7 @@ if($userStud){
 				<input required="true"  class="form-control input-md" id="BIRTHPLACE" name="BIRTHPLACE" placeholder="Place of Birth" type="text" value="<?php echo isset($_SESSION['BIRTHPLACE']) ? $_SESSION['BIRTHPLACE'] : ''; ?>">
 			   </td>
 			</tr>
-			<tr>
+			<!-- <tr>
 				<td><label>Nationality</label></td>
 				<td colspan="2"><input required="true"  class="form-control input-md" id="NATIONALITY" name="NATIONALITY" placeholder="Nationality" type="text" value="<?php echo isset($_SESSION['CONTACT']) ? $_SESSION['CONTACT'] : ''; ?>">
 							</td>
@@ -208,7 +208,7 @@ if($userStud){
 				<td colspan="2"><input  required="true" class="form-control input-md" id="RELIGION" name="RELIGION" placeholder="Religion" type="text" value="<?php echo isset($_SESSION['RELIGION']) ? $_SESSION['RELIGION'] : ''; ?>">
 				</td>
 				
-			</tr>
+			</tr> -->
 			<tr>
 			<td><label>Contact No.</label></td>
 				<td colspan="6"><input required="true"  class="form-control input-md" id="CONTACT" name="CONTACT" placeholder="Contact Number" type="number" maxlength="11" value="<?php echo isset($_SESSION['CONTACT']) ? $_SESSION['CONTACT'] : ''; ?>">
@@ -216,7 +216,7 @@ if($userStud){
 				
 			</tr>
 			<tr>
-			<td><label>Course/Year</label></td>
+			<td><label>Department/Year</label></td>
 				<td colspan="2">
 					
 					<select class="form-control input-sm" name="COURSE">
@@ -247,7 +247,7 @@ if($userStud){
 				</td>
 				
 			 
-				<td><label>Civil Status</label></td>
+				<!-- <td><label>Civil Status</label></td>
 				<td colspan="2">
 					<select class="form-control input-sm" name="CIVILSTATUS">
 						<option value="<?php echo isset($_SESSION['CIVILSTATUS']) ? $_SESSION['CIVILSTATUS'] : 'Select'; ?>"><?php echo isset($_SESSION['CIVILSTATUS']) ? $_SESSION['CIVILSTATUS'] : 'Select'; ?></option>
@@ -255,7 +255,7 @@ if($userStud){
 						 <option value="Married">Married</option> 
 						 <option value="Widow">Widow</option>
 					</select>
-				</td>
+				</td> -->
 			</tr>
 			<tr>
 				<td><label>Username</label></td>
